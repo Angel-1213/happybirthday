@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="birthday.css">
+    <title>HAPPY BIRTHDAY BABES!!</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">The Big 18: Wishes from Your Biggest Fans</h1>
+    </header>
+
+    <br>
+    <br>
+
+    <main>
+        <div class="flip-container">
+            <div class="flip-inner" id="flip-inner">
+                <!-- Front side (image) -->
+                <div class="flip-front" onclick="flipAndPlay()">
+                    <img src="奶奶.jpg" id="奶奶祝福">
+                </div>
+                <!-- Back side (video) -->
+                <div class="flip-back">
+                    <video controls id="爷爷奶奶视频">
+                        <source src="爷爷奶奶视频.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <img src="Sailing.jpg" id="Sailing祝福">
+        <img src="Pontone.jpg" id="Pontone祝福">
+
+        <div class="flip-container"></div>
+        <div class="flip-inner" id="flip-inner">
+            <!-- Front side (image) -->
+            <div class="flip-front" onclick="flipAndPlay()">
+                <img src="Pontone.jpg" id="Pontone祝福">
+            </div>
+            <!-- Back side (video) -->
+            <div class="flip-back">
+                <video controls id="Pontone视频">
+                    <source src="Pontone视频.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <script src="birthday.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('background.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lobster', cursive;
+}
+
+#title {
+    color: #000000;
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+#line {
+    height: 2px;
+    width: 90%;
+    background-color: #000;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#growth {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#cake {
+    width: 160px;
+    height: 210px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
+}
+
+.video-text {
+    margin-top: 10px;
+    font-size: 15px;
+}

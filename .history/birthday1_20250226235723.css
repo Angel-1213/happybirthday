@@ -1,0 +1,45 @@
+#Sailing祝福 {
+    width: 200px;
+    height: 250px;
+    margin-left: 140px;
+    border: 16px solid #ebf301;
+}
+
+
+#sailingtext {
+    margin-left: 340px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+#Jason妈妈祝福 {
+    width: 200px;
+    height: 250px;
+    margin-top: -600px;
+    margin-bottom: 90px;
+    margin-left: 650px;
+    border: 16px solid #ebf301;
+}
+
+#jason妈妈text {
+    margin-left: 650px;
+    margin-top: -75px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+#温州祝福 {
+    width: 200px;
+    height: 250px;
+    margin-top: -600px;
+    margin-bottom: 90px;
+    margin-left: 1000px;
+    border: 16px solid #ebf301;
+}
+
+#温州text {
+    margin-left: 650px;
+    margin-top: -75px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}

@@ -1,0 +1,67 @@
+#line {
+    width: 160px;
+    height: 210px;
+    margin-left: 100px;
+    margin-top: 200px
+}
+
+#cake {
+    width: 160px;
+    height: 210px;
+    margin-bottom: -110px;
+    margin-left: 60px
+}
+
+#Sailing祝福 {
+    width: 200px;
+    height: 250px;
+    margin-left: 140px;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
+}
+
+#sailingtext {
+    margin-left: 340px;
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    text-shadow: 0.7px 0.7px rgb(255, 255, 255);
+}
+
+#Jason妈妈祝福 {
+    width: 200px;
+    height: 250px;
+    margin-top: -600px;
+    margin-bottom: 200px;
+    margin-left: 650px;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
+}
+
+#jason妈妈text {
+    margin-left: 650px;
+    margin-top: -190px;
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    text-shadow: 0.7px 0.7px rgb(255, 255, 255);
+}
+
+#温州祝福 {
+    width: 240px;
+    height: 250px;
+    margin-top: -600px;
+    margin-bottom: 210px;
+    margin-left: 960px;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
+}
+
+#温州text {
+    margin-left: 970px;
+    margin-top: -200px;
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    text-shadow: 0.7px 0.7px rgb(255, 255, 255);
+}

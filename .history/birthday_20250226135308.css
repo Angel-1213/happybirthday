@@ -1,0 +1,157 @@
+#title {
+    color: #fcfcfa;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px rgb(8, 5, 0);
+}
+
+/* Container for the flip effect */
+.flip-container {
+    perspective: 1000px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Inner container that flips */
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    /* Ensures 3D effect */
+}
+
+/* Front and back sides of the flip */
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* Hides the back side when flipped */
+}
+
+/* Front side (image) */
+.flip-front {
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* Back side (video) */
+.flip-back {
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding-top: 80px;
+}
+
+/* Flip effect */
+.flip-inner.flipped {
+    transform: rotateY(180deg);
+    /* Flip to the back side */
+}
+
+
+#发小视频 {
+    width: 180px;
+    height: 250px;
+    margin-left: 100px;
+    border: 16px solid #ebf301;
+}
+
+#可人视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border: 16px solid #ebf301;
+}
+
+#雨涵视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border: 16px solid #ebf301;
+}
+
+#芊芊视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border: 16px solid #ebf301;
+}
+
+
+#奶奶祝福 {
+    width: 200px;
+    height: 250px;
+    margin-left: -280px;
+    margin-top: 50px;
+    border: 16px solid #ebf301;
+}
+
+#爷爷奶奶视频 {
+    width: 200px;
+    height: 250px;
+    margin-right: 600px;
+    margin-top: 200px;
+    border: 16px solid #ebf301;
+}
+
+#Pontone祝福 {
+    width: 225px;
+    height: 250px;
+    margin-top: 50px;
+    margin-right: -96px;
+    border: 16px solid #ebf301;
+}
+
+#Pontone视频 {
+    width: 200px;
+    height: 250px;
+    margin-top: 220px;
+    margin-right: 75px;
+    border: 16px solid #ebf301;
+}
+
+#pontonetext {
+    margin-left: 570px;
+    margin-top: 350px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+#Zio视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 860px;
+    margin-top: 50px;
+    border: 16px solid #ebf301;
+}
+
+
+#ziotext {
+    margin-left: 570px;
+    margin-top: 100px;
+    margin-left: 860px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+#Zia视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 40px;
+    border: 16px solid #ebf301;
+}
+
+
+#ziatext {
+    margin-left: 570px;
+    margin-top: 350px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}

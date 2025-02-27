@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="birthday.css">
+    <link rel="stylesheet" href="nb.css">
+    <title>HAPPY BIRTHDAY BABES!!</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('background.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* 2 columns */
+            gap: 20px;
+            margin-top: 20px;
+            justify-items: center;
+        }
+
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #title {
+            color: #000000;
+            text-align: center;
+            font-size: 42px;
+            font-family: 'Lobster', cursive;
+            text-shadow: 3px 3px rgb(255, 255, 255);
+        }
+
+        #line {
+            height: 2px;
+            width: 90%;
+            background-color: #000;
+            margin-top: -30px;
+            margin-right: 3%;
+            border-radius: 4px;
+        }
+
+        #growth {
+            width: 500px;
+            height: 200px;
+            margin-top: -70px;
+            margin-left: 450px
+        }
+
+        #cake {
+            width: 160px;
+            height: 210px;
+            margin-top: -200px;
+            margin-left: 60px
+        }
+
+        video {
+            width: 200px;
+            height: 250px;
+            border: 16px solid #ebf301;
+            outline: 2px solid black;
+        }
+
+        .text {
+            font-size: 15px;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">The Big 18: Wishes from Your Biggest Fans</h1>
+        <img src="grow.gif" id="growth">
+        <hr id="line">
+        <img src="cake.gif" id="cake">
+    </header>
+
+    <nav id="navigation-bar" class="all-buttons">
+        <b><a href="birthday.html" class="button">Videos</a>
+            <a href="birthday1.html" class="button">Words of love</a>
+            <a href="birthday3.html" class="button">Voice messages</a></b>
+    </nav>
+
+    <main class="container">
+
+        <!-- Column 1 -->
+        <div class="video-container">
+            <video controls id="发小视频">
+                <source src="发小祝福.mp4" type="video/mp4">
+            </video>
+            <p class="text">茱莉, 18岁生日快乐! <br> 从现在起, 你的自由度会提高, <br> 但这也意味着你需要变得更加独立。<br> 祝我们可爱的茱莉18岁生日快乐! <br>
+                愿你一切顺利、平安健康。<br> 期待我们下次见面, <br> 送上满满的吻, 拜拜~ </p>
+        </div>
+
+        <div class="video-container">
+            <video controls id="可人视频">
+                <source src="可人祝福.mp4" type="video/mp4">
+            </video>
+            <p class="text">哈喽茱莉, 18岁生日快乐! <br> 送你一个大大的飞吻。<br> 哈哈我一直在工作, <br> 在车上祝你一切顺利, 无忧无虑。<br> 做你想做的一切, <br>
+                做你内心想做的一切, 好嘛？<br> 期待我们下次在意大

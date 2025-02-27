@@ -1,0 +1,37 @@
+#scrolling-content {
+    height: 300px;
+}
+
+@media only screen and (max-width: 320px) {}
+
+.brand-container {
+    float: left;
+}
+
+#navigation-bar {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 18px;
+    height: 48px;
+}
+
+#navigation-bar .button:hover {
+    background-color: antiquewhite;
+}
+
+.all-buttons a {
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    line-height: 49px;
+}

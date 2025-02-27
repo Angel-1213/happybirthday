@@ -1,0 +1,63 @@
+#growth {
+    width: 500px;
+    height: 200px;
+    margin-top: -70px;
+    margin-left: 450px
+}
+
+#line {
+    height: 2px;
+    width: 90%;
+    background-color: #000;
+    margin-top: -30px;
+    margin-right: 3%;
+    border-radius: 4px;
+}
+
+#cake {
+    width: 160px;
+    height: 210px;
+    margin-top: -200px;
+    margin-left: 60px
+}
+
+#title {
+    color: #000000;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+.audio-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.audio-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+audio {
+    margin-top: 6px;
+}
+
+#上海祝福,
+#Ziamary图片,
+#小九图片 {
+    width: 270px;
+    height: 250px;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
+}
+
+#audio-container1 {
+    margin-left: 300px;
+    flex-direction: column;
+}
+
+#audio-container2 {
+    margin-left: 300px;
+    margin-bottom: 300px
+}

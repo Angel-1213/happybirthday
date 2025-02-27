@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#title {
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+#line {
+    height: 2px;
+    width: 80%;
+    background-color: #000;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+#growth {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#cake {
+    width: 160px;
+    height: 210px;
+    display: block;
+    margin: 20px auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video {
+    width: 220px;
+    height: 300px;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
+}
+
+.text {
+    font-size: 14px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 10px;
+}

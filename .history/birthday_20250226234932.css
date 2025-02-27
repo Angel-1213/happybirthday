@@ -1,0 +1,92 @@
+#title {
+    color: #fcfcfa;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px rgb(8, 5, 0);
+}
+
+#发小视频 {
+    width: 180px;
+    height: 250px;
+    margin-left: 100px;
+    border: 16px solid #ebf301;
+}
+
+#可人视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border: 16px solid #ebf301;
+}
+
+#雨涵视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border: 16px solid #ebf301;
+}
+
+#芊芊视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border: 16px solid #ebf301;
+}
+
+#爷爷奶奶视频 {
+    width: 200px;
+    height: 250px;
+    margin-left: 300px;
+    margin-bottom: 360px;
+    border: 16px solid #ebf301;
+}
+
+#Pontone视频 {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 360px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 16px solid #ebf301;
+}
+
+#pontonetext {
+    margin-left: 570px;
+    margin-top: -350px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+#Zio视频 {
+    width: 200px;
+    height: 250px;
+    margin-top: -480px;
+    margin-bottom: 700px;
+    margin-left: 850px;
+    border: 16px solid #ebf301;
+}
+
+
+#ziotext {
+    margin-left: 870px;
+    margin-top: -690px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+#Zia视频 {
+    margin-left: 1130px;
+    margin-top: -1000px;
+    margin-bottom: 200px;
+    width: 200px;
+    height: 250px;
+    border: 16px solid #ebf301;
+}
+
+#ziatext {
+    margin-left: 1130px;
+    margin-top: -210px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}

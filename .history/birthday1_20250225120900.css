@@ -1,0 +1,19 @@
+#Sailing祝福 {
+    width: 200px;
+    height: 250px;
+    margin-left: 200px;
+    border: 16px solid #ebf301;
+}
+
+#Jason妈妈祝福 {
+    width: 200px;
+    height: 250px;
+    margin-top: -1000px;
+    margin-left: 700px;
+    border: 16px solid #ebf301;
+}
+
+#text1 {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
