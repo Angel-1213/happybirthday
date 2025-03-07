@@ -26,7 +26,21 @@
     width: 160px;
     height: 210px;
     margin-top: -200px;
-    margin-left: 60px
+    margin-left: 60px;
+    cursor: pointer
+}
+
+#iframe-container {
+    display: none;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+    margin-top: 20px;
+}
+
+#iframe-container.visible {
+    display: block;
+    /* Show the iframe */
+    opacity: 1;
 }
 
 
