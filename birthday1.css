@@ -35,12 +35,44 @@
     opacity: 1;
 }
 
-
 main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 50px;
-    padding: 5px;
+    padding: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#a1 {
+    grid-column: 1 / 2;
+}
+
+#a2 {
+    grid-column: 2 / 3;
+}
+
+#a3 {
+    grid-column: 3 / 4;
+}
+
+#a4 {
+    grid-column: 4 / 5;
+}
+
+#Sailing祝福,
+#Jason妈妈祝福,
+#温州祝福,
+#D祝福 {
+    width: 245px;
+    height: 250px;
+    border: 16px solid #ebf301;
+    outline: 2px solid black;
 }
 
 .text-group {
@@ -48,71 +80,6 @@ main {
     font-family: 'Lobster', cursive;
     color: #000000;
     text-shadow: 0.6px 0.6px rgb(255, 255, 255);
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 10px;
-}
-
-#a1 {
-    grid-column: 1 / 2;
-    margin-left: 10px;
-    width: 130%
-}
-
-#a2 {
-    grid-column: 2 / 3;
-    width: 130%
-}
-
-#a3 {
-    grid-column: 3 / 4;
-    width: 220%;
-    margin-left: -70px
-}
-
-#a4 {
-    grid-column: 4 / 4;
-    width: 220%;
-    margin-left: 30px
-}
-
-
-#Sailing祝福,
-#Jason妈妈祝福,
-#温州祝福,
-#D祝福 {
-    width: 200px;
-    height: 250px;
-    border: 16px solid #ebf301;
-    outline: 2px solid black;
-}
-
-#温州祝福 {
-    width: 300px
-}
-
-#D祝福 {
-    width: 300px;
-    margin-left: -100px
-}
-
-#sailingtext {
-    margin-left: 20px
-}
-
-#jason妈妈text {
-    margin-left: 30px
-}
-
-#温州text {
-    margin-left: 70px
-}
-
-#Dtext {
-    margin-right: -105px;
-    width: 200%
+    width: 100%;
+    text-align: left;
 }
