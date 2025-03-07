@@ -6,4 +6,4 @@ const iframeContainer = document.getElementById("iframe-container");
 cakeGif.addEventListener("click", function () {
     // Toggle the 'visible' class on the iframe container
     iframeContainer.classList.toggle("visible");
-});0
+});
