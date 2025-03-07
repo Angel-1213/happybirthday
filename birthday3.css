@@ -18,8 +18,23 @@
     width: 160px;
     height: 210px;
     margin-top: -200px;
-    margin-left: 60px
+    margin-left: 60px;
+    cursor: pointer
 }
+
+#iframe-container {
+    display: none;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+    margin-top: 20px;
+}
+
+#iframe-container.visible {
+    display: block;
+    /* Show the iframe */
+    opacity: 1;
+}
+
 
 #title {
     color: #000000;
@@ -38,7 +53,7 @@ main {
 
 .audio-group {
     margin-top: 15px;
-    margin-left: 30px
+    margin-left: 17px
 }
 
 .audio-container {
@@ -61,10 +76,15 @@ main {
     grid-column: 3 / 4;
 }
 
+#a4 {
+    grid-column: 4 / 4;
+}
+
 /* Image Styles */
 #上海祝福,
 #Ziamary图片,
-#小九图片 {
+#小九图片,
+#M图片 {
     width: 270px;
     height: 250px;
     border: 16px solid #ebf301;
